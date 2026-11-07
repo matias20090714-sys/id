@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: consulta-nombre
+    runtime: node
+    plan: free
+    startCommand: node servidor.js
+    envVars:
+      - key: MODO_DEMO
+        value: "1"
+      - key: CLAVE_ACCESO
+        generateValue: true
