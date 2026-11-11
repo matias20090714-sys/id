@@ -3,7 +3,7 @@ services:
     name: consulta-nombre
     runtime: node
     plan: free
-    startCommand: node servidor.js
+    startCommand: node src/server.js
     envVars:
       - key: MODO_DEMO
         value: "1"
