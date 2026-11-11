@@ -2,6 +2,6 @@
   "name": "consulta-nombre",
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "start": "node servidor.js" },
+  "scripts": { "start": "node src/server.js" },
   "engines": { "node": ">=20" }
 }
